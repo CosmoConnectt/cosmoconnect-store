@@ -44,7 +44,7 @@ app.use( "/api/featured", featuredRoutes);
  app.use("/api/orders", orderRoutes);
 
 if(process.env.NODE_ENV === 'production'){
-  app.use(express.static(path.join(__dirname, '/frontend/build')));
+  app.use(express.static(path.join(__dirname, '/frontend/dist')));
 
   app.get('*', (req, res) => {  
     res.sendFile
