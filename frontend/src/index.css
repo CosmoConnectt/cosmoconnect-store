@@ -3,20 +3,15 @@
 @tailwind utilities;
 
 
-  
-/* Add this to your CSS file */
+body {
+  background: url('/star1.jpg') repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  image-rendering: crisp-edges; /* Ensure the image is rendered sharply */
+}
 
-@keyframes fallingStars {
-    0% {
-      background-position: 0 0; /* Start from the top */
-    }
-    100% {
-      background-position: 0 100%; /* Move to the bottom */
-    }
-  }
-  
-  .starry-animation {
-    animation: fallingStars 20s linear infinite;
-    background-size: cover;
-  }
-  
+
+

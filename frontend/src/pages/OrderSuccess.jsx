@@ -31,40 +31,40 @@ const OrderSuccess = () => {
             >
                 <div className="p-6 sm:p-8">
                     <div className="flex justify-center">
-                        <CheckCircle className="text-green-500 w-16 h-16 mb-4" />
+                        <CheckCircle className="text-blue-500 w-16 h-16 mb-4" />
                     </div>
-                    <h1 className="text-2xl sm:text-3xl font-bold text-center text-green-400 mb-2">
+                    <h1 className="text-2xl sm:text-3xl font-bold text-center text-blue-400 mb-2">
                         Order Placed Successfully!
                     </h1>
 
                     <p className="text-gray-300 text-center mb-2">
                         Thank you for shopping with us. Your order is being processed.
                     </p>
-                    <p className="text-green-400 text-center text-sm mb-6">
+                    <p className="text-blue-400 text-center text-sm mb-6">
                         Check your email for order details and updates.
                     </p>
 
                     <div className="bg-gray-800 rounded-lg p-4 mb-6">
                         <div className="flex items-center justify-between mb-2">
                             <span className="text-sm text-gray-400">Order number</span>
-                            <span className="text-sm font-semibold text-green-400">#12345</span>
+                            <span className="text-sm font-semibold text-blue-400">#12345</span>
                         </div>
                         <div className="flex items-center justify-between">
                             <span className="text-sm text-gray-400">Estimated delivery</span>
-                            <span className="text-sm font-semibold text-green-400">3-5 business days</span>
+                            <span className="text-sm font-semibold text-blue-400">3-5 business days</span>
                         </div>
                     </div>
 
                     <div className="space-y-4">
                         <button
-                            className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center"
+                            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center"
                         >
                             <HandHeart className="mr-2" size={18} />
                             Thanks for trusting us!
                         </button>
                         <Link
                             to="/"
-                            className="w-full bg-gray-800 hover:bg-gray-700 text-green-400 font-bold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center"
+                            className="w-full bg-gray-800 hover:bg-gray-700 text-blue-400 font-bold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center"
                         >
                             Continue Shopping
                             <ArrowRight className="ml-2" size={18} />

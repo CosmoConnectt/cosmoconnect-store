@@ -36,14 +36,12 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
-      {/* Spacey Background Gradient */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(ellipse_at_top,rgba(30,0,60,0.5)_0%,rgba(10,10,30,0.7)_45%,rgba(0,0,0,0.9)_100%)]" />
-        </div>
+      {/* Spacey Background Image */}
+      <div className="absolute inset-0 overflow-hidden z-0">
+        <img src="/star1.jpg" alt="Background" className="w-full h-full object-cover" style={{ imageRendering: 'crisp-edges' }} />
       </div>
 
-      <div className="relative z-50 pt-20">
+      <div className="relative z-10 pt-20">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
