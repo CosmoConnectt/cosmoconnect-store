@@ -9,11 +9,12 @@ const Navbar = () => {
   const isAdmin = user?.role === "admin";
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-gray-900 via-indigo-950 to-black bg-opacity-90 backdrop-blur-md shadow-lg z-40 transition-all duration-300 border-b border-indigo-800">
+    <header className="fixed top-0 left-0 w-full bg-black bg-opacity-90 backdrop-blur-md shadow-lg z-40 transition-all duration-300 border-b border-indigo-800">
       <div className="container mx-auto px-4 py-3">
         <div className="flex flex-wrap justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-indigo-400 flex items-center space-x-2">
-            CosmoConnect
+          <Link to="/" className="text-2xl font-bold text-white flex items-center space-x-2">
+            <img src="/cclogo.jpg" alt="Logo" className="w-8 h-8" />
+            <span>CosmoConnect</span>
           </Link>
 
           <nav className="flex flex-wrap items-center gap-4">
