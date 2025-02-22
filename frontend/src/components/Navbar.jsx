@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex flex-wrap justify-between items-center">
           <a href="https://cosmoconnect-content.netlify.app/" className="text-2xl font-bold text-white flex items-center space-x-2">
-            <img src="/cclogo.jpg" alt="Logo" className="w-8 h-8" />
+            <img src="/cclogo.jpeg" alt="Logo" className="w-8 h-8" />
             <span>CosmoConnect</span>
           </a>
 
