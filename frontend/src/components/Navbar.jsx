@@ -3,7 +3,6 @@ import { ShoppingCart, UserPlus, LogIn, LogOut, Lock, List, Menu, X } from "luci
 import { Link } from "react-router-dom";
 import { useUserStore } from "../stores/useUserStore";
 import { useCartStore } from "../stores/useCartStore";
-import LOGO from "../assets/LOGO.svg"; // Import the logo
 
 const Navbar = () => {
   const { user, logout } = useUserStore();
@@ -19,7 +18,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-gray-900 via-indigo-950 to-black bg-opacity-90 backdrop-blur-md shadow-lg z-40 transition-all duration-300 border-b border-indigo-800">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <a href="https://cosmoconnect-content.netlify.app/" className="text-2xl font-bold text-indigo-400 flex items-center space-x-2">
-          <img src={LOGO} alt="Logo" className="w-8 h-8" /> {/* Add the logo */}
+          <img src="/cclogo.jpeg" alt="Logo" className="w-8 h-8" /> {/* Add the logo */}
           <span>CosmoConnect</span>
         </a>
 
