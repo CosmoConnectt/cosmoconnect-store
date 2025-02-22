@@ -12,14 +12,17 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-gray-900 via-indigo-950 to-black bg-opacity-90 backdrop-blur-md shadow-lg z-40 transition-all duration-300 border-b border-indigo-800">
       <div className="container mx-auto px-4 py-3">
         <div className="flex flex-wrap justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-indigo-400 flex items-center space-x-2">
+          <a href="https://cosmoconnect-content.netlify.app/" className="text-2xl font-bold text-indigo-400 flex items-center space-x-2">
             CosmoConnect
-          </Link>
+          </a>
 
           <nav className="flex flex-wrap items-center gap-4">
             <Link to="/" className="text-gray-300 hover:text-indigo-400 transition duration-300">
               Home
             </Link>
+            <a href="https://cosmoblog-frontend.vercel.app" className="text-gray-300 hover:text-indigo-400 transition duration-300">
+              BLOG
+            </a>
 
             {user && (
               <Link to="/cart" className="relative group text-gray-300 hover:text-indigo-400 transition">
